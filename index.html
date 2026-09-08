@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specialkost - Fulköpings bokmässa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="header">
+      <h1>Fulköpings bokmässa</h1>
+      <p>Beställning av specialkost till konferens</p>
+    </div>
+
+    <div class="order-form">
+
+      <div class="form-field">
+        <label for="participants">Antal deltagare</label>
+        <input type="text" id="participants" name="participants">
+      </div>
+
+      <div class="form-field">
+        <label for="vegetarian">Antal vegetariska portioner</label>
+        <input type="text" id="vegetarian" name="vegetarian">
+      </div>
+
+      <div class="form-field">
+        <label for="vegan">Antal veganportioner</label>
+        <input type="text" id="vegan" name="vegan">
+      </div>
+
+      <div class="form-field">
+        <label for="deliveryDate">Leveransdatum</label>
+        <input type="date" id="deliveryDate" name="deliveryDate">
+      </div>
+
+      <div class="form-field">
+        <label for="conferenceDate">Konferensdatum</label>
+        <input type="date" id="conferenceDate" name="conferenceDate">
+      </div>
+
+      <div class="form-actions">
+        <button type="button" id="submitBtn">Skicka beställning</button>
+      </div>
+
+      <div class="messages" id="messages"></div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
